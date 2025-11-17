@@ -13,6 +13,12 @@ It provides:
 - Optional **HTTPS** support with your own certificate
 
 > 中文说明：这是一个基于 vnStat + Nginx + Python 的 VPS 实时流量面板，支持实时带宽、今日流量、计费周期流量，以及按小时 / 按天 / 按月的统计展示。适合自用 VPS 监控带宽和用量。
+```bash
+wget -O install_net_panel.sh https://raw.githubusercontent.com/wwintj/vps-net-traffic-panel/main/install_net_panel.sh \
+  && chmod +x install_net_panel.sh \
+  && sudo ./install_net_panel.sh
+```
+
 
 ---
 
